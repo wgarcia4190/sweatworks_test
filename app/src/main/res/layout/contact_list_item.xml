@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/contact_item_padding">
+
+    <ImageView
+        android:id="@+id/contactImage"
+        android:layout_width="@dimen/contact_item_size"
+        android:layout_height="@dimen/contact_item_size"
+        android:background="@color/separator" />
+
+    <LinearLayout
+        android:layout_width="@dimen/contact_item_size"
+        android:layout_height="@dimen/shadow_height"
+        android:layout_alignBottom="@+id/contactImage"
+        android:background="#6000"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
