@@ -170,7 +170,7 @@
 
         </LinearLayout>
     </ScrollView>
-    
+
     <Button
         android:id="@+id/addContactButton"
         android:layout_width="match_parent"
